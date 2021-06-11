@@ -1,0 +1,485 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hey there
+    - yes tell me
+    - long time no see
+    - howdy
+    - hey there
+    - hey
+    - sup
+    - whatsup
+    - greetings
+    - I greet you
+    - hi there
+    - hello there
+    - lovely day isn't it
+    - hello again
+    - just going to say hi
+    - hi there
+    - a good day
+    - hello hi
+    - heya
+    - hey
+    - hi
+    - hey yeah?
+    - Hello
+    - hey
+    - hey man
+    - hey there
+    - hey buddy
+    - oka
+    - yo man
+    - hola
+    - hello who are you?
+    - hii what is it about?
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+    - okay see you later
+    - hope to see you later
+    - bye for now
+    - till next time
+    - I must go
+    - bye
+    - goodbye
+    - see you
+    - see you soon
+    - bye-bye
+    - bye bye good night
+    - good bye
+    - bye bye see you
+    - bye bye see you soon
+    - bye bye take care
+    - I said bye
+    - never mind bye
+    - now bye
+    - that's all goodbye
+    - that's it goodbye
+    - leave me alone
+    - go to bed
+    - goodbye for now
+    - talk to you later
+    - you can go now
+    - get lost
+    - goodbye see you later
+    - alright bye
+    - see ya
+    - thanks bye bye
+    - okay bye
+    - okay thank you bye
+    - ok bye
+    - c u
+
+- intent: affirm
+  examples: |
+    - yes
+    - yes please.
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yeah
+    - go on
+    - continue
+    - please carry on
+    - please continue
+    - yes,am interested
+    - yes,I heard about it
+    - yaa
+    - ok sure
+    - can speak now
+    - great
+    - cool
+    - ok
+    - interested
+    - yes,i may be interested.
+    - can
+    - sure
+    - carry on
+    - call me later
+    - what is the next step
+    - yeah exactly
+    - okay that's fine
+    - I agree
+    - that is ok
+    - I guess
+    - okey
+    - may i know who are you?
+    - ya
+    - errr.Sure.
+    - am keen about it
+    - ok yes
+    - yes it is
+    - yep
+    - yew
+    - yeah
+    - yeah fine
+    - yes what is it?
+    - yes continue
+    - am free
+    - yea fine
+    - yep okay
+    - fine okay
+    - yup
+    - YEAH
+    - okay buddy
+    - oh okay
+    - yeah sure
+    - okay cool
+    - coool
+    - okay
+
+- intent: who
+  examples: |
+    - Who ah? Huh?
+    - You're who again?
+    - Who is this again?
+    - Sorry ah, who is this?
+    - Who are you looking for?
+    - who is this?
+    - who are you?
+    - who is speaking?
+    - what is your name again?
+
+- intent: delivery_type
+  examples: |
+    - doorstep
+    - office
+    - door
+    - anything is ok
+    - i dont want to come to office
+    - i need a door delivery
+    - yup,door delivery
+
+- intent: need_info
+  examples: |
+    - what is it?
+    - I don't think so
+    - don't like that
+    - no? who is this?
+    - not really
+    - what?
+    - what coverage?
+    - no,what is it about?
+    - no,please tell about it.
+    - I didnt heard about it
+    - no however am also not working
+    - what is this about?
+    - where are you calling from?
+    - is it a insurance?
+    - how can i help you?
+    - where are you calling on behalf?
+
+- intent: deny
+  examples: |
+    - No
+    - i dont want anymore
+    - no its ok
+    - never mind
+    - don't
+    - no its okay
+    - no its fine
+    - don't want
+    - need not
+    - not keen
+    - don't come
+    - never help
+    - never
+    - no la no
+    - not needed
+    - of course not
+    - never
+    - not at this time
+    - not exactly
+    - absolutely no
+    - no forget
+    - do not
+    - dont think i need
+    - i will be fine without it
+    - no thanks
+    - no don't want
+    - sorry no
+    - don't want your help
+    - I don't you help
+    - I don't want your assistance
+    - get out goodbye
+    - i do not want your help
+    - i don't need your help
+    - i don't want your help
+    - i am not okay with your help
+    - don't want
+    - do not
+    - I don't need anything from you
+    - okay keep it in mind
+    - nope i dont need your help
+    - Don't show off
+    - nope
+    - sorry, no
+    - Yes, but I am not keen now
+    - not necessary
+    - no Thank you
+    - no need
+    - sorry,wrong number
+    - My husband is from AIA
+    - Think I’ll be ok.
+
+- intent: not_interested
+  examples: |
+    - sorry,not interested
+    - no,thanks
+    - not interested
+    - I already have it
+    - I have an agent already
+    - someone is handling it for me
+    - this is a scam
+    - i already have that plan
+    - my family is in AIA
+    - my family is in prudential
+    - i am in prudential/AIA
+    - i already went for first injection
+    - i already went for my second injection
+    - i am done with both doses
+    - Not interested in anything
+    - This will surely lead into insurance. No thanks.
+    - We are not interested in any insurance
+    - Not interested at the moment thank you.
+    - Not, really.
+    - No, It's ok.
+    - Sorry not interested in all these kind of insurance thing.
+    - This will surely leading into insurance someway so don't disturb me
+    - don’t think I'll need it, thanks.
+
+- intent: message
+  examples: |
+    - please leave a message after tone
+    - can you please leave a message
+    - leave a message instead
+    - Starhub is unable to get a response from our customer's mobile phone,please try again later
+    - Your destination number is blocked by DNC
+    - The mobile service you have called is unavailable, please try again later.
+    - The M1 number you have dial is not in use, please check the number and dial again
+    - The circles's life user is not available at the moment. PLease try again later
+    - The high card number you have dialed, in unavailable. Please try again later.
+    - xxxx9890 is unavailable at the moment, please leave a message after the tone.
+    - You have reached Voicemail number xxxxx
+
+- intent: cost_check
+  examples: |
+    - How much will it cost?
+    - How much is this?
+    - Will this be expensive?
+    - Is this really free?
+    - Free or not ?
+    - How can this be free ?
+    - what it costs?
+    - free ah?
+    - is this free of charge?
+    - sorry free?
+    - is there any terms and conditions?
+
+- intent: busy+need_info
+  examples: |
+    - busy la.what is it?
+    - okay i am busy what is it about?
+    - am in meeting what is it
+    - iam in hurry what is the call?
+    - i have to rush why calling me?
+    - am driving what?
+    - am in middle of something anthing important
+    - busy in work make it quick
+    - not have time finish it fast
+    - no no what is it regarding?
+
+- intent: mood_busy
+  examples: |
+    - busy
+    - am busy now
+    - busy right now
+    - in meeting.
+    - sorry, am driving
+    - I don't have time for the call now
+    - i will contact you later
+    - sorry,this isn't a good/convienent time to talk.I am at work
+    - am not available now
+    - I have work
+    - I am in office
+    - I am at work
+    - not convient to talk
+    - don't have time
+    - busy right now
+    - I'm overloaded
+    - I have no time
+    - I'm busy
+    - I'm swamped
+    - I got things to do
+    - how busy I am
+    - I got work to do
+    - I'm working
+    - I don't have time for this
+    - I'm super busy
+    - I'm working right now
+    - I'm busy right now and can't play with you
+    - i am too busy
+    - I am very busy
+    - I'm a bit busy
+    - I'm a busy man
+    - quite busy
+    - I'm kind of busy
+    - I'll see you later
+    - No I'm in the public transport
+    - Sorry, I'm still in the middle of something.
+    - I'm driving, call tomorrow.
+
+- intent: dont_call
+  examples: |
+    - i dont want a callback
+    - i am not interested for callback
+    - No, I don’t want to receive a callback
+    - Why would you need them to call me back?
+    - please dont call me again
+    - not need for callback
+    - dont disturb me
+
+- intent: further_questions
+  examples: |
+    - is this a offer
+    - do i have discount for this
+    - any discount
+    - how much time does it take?
+    - what is the offer?
+    - can i know about discount?
+    - what is the call about?
+    - what is good about it?
+    - why should i need it?
+    - how is it helpfull ?
+    - what is so interesting about it?
+    - is this beneficial to me?
+    - why i need to have this?
+    - what are your commiments?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - what is your name?
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - you are chatbot
+    - you are a bot
+    - are you a chatbot
+    - are you a bot
+    - are you just a bot
+    - are you a robot
+    - are you a program
+    - you're a robot
+    - you're an AI
+    - are you artificially intelligent?
+    - are you an AI?
+    - you are a program
+    - you are just a bot
+    - you are a conversational AI
+
+- intent: call_later
+  examples: |
+    - I'll give you a call back instead?
+    - i will call you later
+    - i will call you sometime later
+    - call you when am free
+    - give you a call later
+    - can i call you sometime later
+    - call you later
+    - call you back after a while
+    - call you back
+
+- intent: time_date
+  examples: |
+    - nope am good with anytime
+    - call me [thursday](day) at [2pm](time)
+    - call me [4th](date) at [10am](time)
+    - call me [wednesday](day)
+    - call me on [15th](date)
+    - call me next week
+    - call [monday](day) at [3rd](date)
+    - call at [1st](date)
+    - call [2nd](date) [january](month) [12pm](time)
+    - call [evening](day)
+    - anytime
+    - [tomorrow](day)
+    - at [3 pm](time)
+    - call after [2](number) days
+    - next day
+    - [afternoon](day)
+    - may be [evening](day)
+    - may be after [2](number) days
+    - call me after office time at around [6 pm](time)
+    - after office hours
+    - Sure, I would like a callback on [5th](date) at [4pm](time)
+
+- lookup: time
+  examples: |
+    - 2 pm
+    - 7 pm
+    - 12 pm
+    - 5 am
+    - 6 am
+
+- lookup: date
+  examples: |
+    - 24th
+    - 6th
+    - 16th
+    - 19th
+    - 29th
+    - 30th
+    - 31st
+    - 2nd
+    - 3rd
+
+- lookup: day
+  examples: |
+    - monday
+    - tuesday
+    - wednesday
+    - thursday
+    - friday
+    - saturday
+    - sunday
+    - morning
+    - afternoon
+    - night
+    - evening
+    - today
+    - tomorrow
+
+- lookup: month
+  examples: |
+    - january
+    - febuary
+    - march
+    - april
+    - may
+    - june
+    - july
+    - august
+    - september
+    - october
+    - november
+    - december
+
+- lookup: number
+  examples: |
+    - 1
+    - 5
+    - 6
+    - 13
+    - 25

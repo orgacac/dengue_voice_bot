@@ -1,0 +1,69 @@
+version: "2.0"
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - need_info
+  - mood_busy
+  - not_interested
+  - dont_call
+  - who
+  - delivery_type
+  - out_of_scope
+  - bot_challenge
+  - call_later
+  - further_questions
+  - time_date
+  - message
+  - cost_check
+  - busy+need_info
+  - trigger_rephrase
+
+entities:
+  - time_date
+  - time
+  - date
+  - day
+  - month
+  - number
+
+
+responses:
+  utter_greet:
+    - text: greet
+
+  utter_greet_again:
+    - text: greet_again
+
+  utter_info:
+    - text: info
+
+  utter_delivery_check:
+    - text: delivery_check
+
+  utter_callback_check:
+    - text: callback_check
+
+  utter_goodbye:
+    - text: goodbye
+
+  utter_convince:
+    - text: convince
+
+  utter_sad_bye:
+    - text: sad_bye
+
+  utter_answer:
+    - text: answer
+
+  utter_cost_info:
+    - text: cost_info
+
+  utter_busy_info:
+    - text: busy_info
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

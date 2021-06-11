@@ -1,0 +1,17 @@
+version: "2.0"
+
+rules:
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: voice mail
+  steps:
+  - intent: message
+  - action: utter_goodbye
