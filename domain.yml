@@ -8,8 +8,7 @@ intents:
   - mood_busy
   - not_interested
   - dont_call
-  - who
-  - delivery_type
+  - more_info
   - out_of_scope
   - bot_challenge
   - call_later
@@ -17,6 +16,9 @@ intents:
   - time_date
   - message
   - cost_check
+  - contact
+  - who
+  - greet+who
   - busy+need_info
   - trigger_rephrase
 
@@ -63,6 +65,8 @@ responses:
   utter_busy_info:
     - text: busy_info
 
+  utter_more_info:
+    - text: more_info
 
 session_config:
   session_expiration_time: 60

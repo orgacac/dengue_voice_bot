@@ -122,6 +122,7 @@ nlu:
     - yep
     - yew
     - yeah
+    - hey yes
     - yeah fine
     - yes what is it?
     - yes continue
@@ -138,27 +139,29 @@ nlu:
     - coool
     - okay
 
+- intent: greet+who
+  examples: |
+    - hello Who ah? Huh?
+    - hey You're who again?
+    - hello,Who is this again?
+    - Sorry ah, who is this?
+    - hey Who are you looking for?
+    - hello who is this?
+    - hello who are you?
+    - hello who is speaking?
+    - hello what is your name again?
+
 - intent: who
   examples: |
-    - Who ah? Huh?
-    - You're who again?
-    - Who is this again?
-    - Sorry ah, who is this?
-    - Who are you looking for?
     - who is this?
     - who are you?
+    - who are you again?
+    - sorry ah, who is this?
     - who is speaking?
     - what is your name again?
-
-- intent: delivery_type
-  examples: |
-    - doorstep
-    - office
-    - door
-    - anything is ok
-    - i dont want to come to office
-    - i need a door delivery
-    - yup,door delivery
+    - who is this calling?
+    - sorry?
+    - calling from where again?
 
 - intent: need_info
   examples: |
@@ -178,6 +181,24 @@ nlu:
     - is it a insurance?
     - how can i help you?
     - where are you calling on behalf?
+    - so sorry what is it about?
+
+- intent: more_info
+  examples: |
+    - tell me
+    - sure,tell me more
+    - can I find out more?
+    - can i know more
+    - i don't understand you
+    - can you tell in detail
+    - what is this about?
+    - what?
+    - can you explain further
+    - can you explain it clearly
+    - Yes, but I am not keen now
+    - no it's okay
+    - not at the moment
+    - what is it again?
 
 - intent: deny
   examples: |
@@ -243,6 +264,7 @@ nlu:
     - this is a scam
     - i already have that plan
     - my family is in AIA
+    - I have an agent from AIA
     - my family is in prudential
     - i am in prudential/AIA
     - i already went for first injection
@@ -279,7 +301,8 @@ nlu:
     - Will this be expensive?
     - Is this really free?
     - Free or not ?
-    - How can this be free ?
+    - do we need to buy?
+    - How can this be free?
     - what it costs?
     - free ah?
     - is this free of charge?
@@ -338,6 +361,8 @@ nlu:
     - No I'm in the public transport
     - Sorry, I'm still in the middle of something.
     - I'm driving, call tomorrow.
+    - busy at this moment
+    - driving at this moment
 
 - intent: dont_call
   examples: |
@@ -348,6 +373,8 @@ nlu:
     - please dont call me again
     - not need for callback
     - dont disturb me
+    - why you need to call me again?
+    - no dont call me
 
 - intent: further_questions
   examples: |
@@ -365,6 +392,14 @@ nlu:
     - is this beneficial to me?
     - why i need to have this?
     - what are your commiments?
+    - yes you can share me in the call
+    - no oblgations right?
+    - what is the sharing purpose for?
+    - may be you can share me more on the line
+    - can you share with me now
+    - you can explain me now
+    - Why do we need to meet up for?
+    - what is the sharing purposes for?
 
 - intent: bot_challenge
   examples: |
@@ -400,6 +435,17 @@ nlu:
     - call you later
     - call you back after a while
     - call you back
+    - call me later
+    - can you callback after sometime
+
+- intent: contact
+  examples: |
+    - okay, how i do know about this?
+    - How to go about the Dead.
+    - what next?
+    - how to reach the agent
+    - how to reach your manager
+    - want to contact human agent
 
 - intent: time_date
   examples: |
