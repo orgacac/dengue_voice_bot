@@ -138,6 +138,10 @@ nlu:
     - okay cool
     - coool
     - okay
+    - can thank you
+    - ok sure
+    - ok can
+    - Okay can.
 
 - intent: greet+who
   examples: |
@@ -182,6 +186,43 @@ nlu:
     - how can i help you?
     - where are you calling on behalf?
     - so sorry what is it about?
+    - okay regarding what?
+
+- intent: regarding_zoom
+  examples: |
+    - I don’t mind for a zoom session
+    - Okay how to go about it?
+    - Okay when to meet?
+    - Okay zoom session
+    - Yes sure how to go about it?
+    - I can only make it tomorrow.
+    - Ok sure, zoom session is fine. okay sure!
+    - Can it be done on weekend ?
+    - Sure that will work.
+
+- intent: mood_busy+time_date
+  examples: |
+    - Sorry busy, this week say.. [tomorrow](day) [6 pm](time) ?
+    - Maybe next week will be good.
+    - maybe after [7 pm](time)
+    - I think next week better
+    - can have zoom meet [monday](day) [9 am](time)
+    - schedule a meeting after [2](number) days
+    - okay meet you after [1](number) days
+    - busy can have zoom meet on [5 th](date) [3 pm](time)
+    - sorry,may be on [12 th](date) at [10 am](time)
+    - can have a meet at [7 pm](time)
+    - ok can at [5 pm](time)
+
+- intent: delivery_check
+  examples: |
+    - How will the item be delivered to be me?
+    - do you have delivery facilities?
+    - do you provide home delivery?
+    - any delivery provided?
+    - delivery?
+    - can i have the items delivered to doorsteps?
+    - are you responsible for door delivery?
 
 - intent: more_info
   examples: |
@@ -197,7 +238,6 @@ nlu:
     - can you explain it clearly
     - Yes, but I am not keen now
     - no it's okay
-    - not at the moment
     - what is it again?
 
 - intent: deny
@@ -252,6 +292,13 @@ nlu:
     - sorry,wrong number
     - My husband is from AIA
     - Think I’ll be ok.
+    - no so sorry
+    - not at the moment thanks
+    - No sorry not keen
+    - no sorry
+    - Zoom ah? No need thankyou
+    - Erm.. I think it’s okay.
+    - I think it’s okay, no thank you
 
 - intent: not_interested
   examples: |
@@ -279,6 +326,8 @@ nlu:
     - Sorry not interested in all these kind of insurance thing.
     - This will surely leading into insurance someway so don't disturb me
     - don’t think I'll need it, thanks.
+    - Not interested, thank you
+    - Sorry not interested
 
 - intent: message
   examples: |
@@ -363,6 +412,7 @@ nlu:
     - I'm driving, call tomorrow.
     - busy at this moment
     - driving at this moment
+    - Busy at the moment call you back later
 
 - intent: dont_call
   examples: |
@@ -460,6 +510,7 @@ nlu:
     - call [2nd](date) [january](month) [12pm](time)
     - call [evening](day)
     - anytime
+    - [5 th](date) [may](month)
     - [tomorrow](day)
     - at [3 pm](time)
     - call after [2](number) days

@@ -6,433 +6,14 @@ stories:
    - intent: greet+who
    - action: utter_greet_again
 
- - story: positive path 1
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: time_date
-   - action: utter_goodbye
-
- - story: positive path 2
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: time_date
-   - action: utter_goodbye
-
- - story: positive path 3
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: time_date
-   - action: utter_goodbye
-
- - story: positive path 4
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: affirm
-   - action: utter_goodbye
-
- - story: positive path 5
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: time_date
-   - action: utter_goodbye
-
- - story: positive path 6
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: time_date
-   - action: utter_goodbye
-
- - story: positive path 8
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: affirm
-   - action: utter_goodbye
-
- - story: positive path 9
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: time_date
-   - action: utter_goodbye
-
- - story: positive path 10
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: affirm
-   - action: utter_goodbye
-
- - story: positive path 11
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: deny
-   - action: utter_goodbye
-
- - story: positive path 12
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: deny
-   - action: utter_goodbye
-
- - story: positive deny path 1
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: positive deny path 2
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: positive deny path 3
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: positive deny path 5
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: positive deny path 6
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: positive deny path 7
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: positive deny path 8
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: deny path 1
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: deny path 2
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: deny path 3
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: deny path 4
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: deny path 5
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: deny path 6
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: deny path 7
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: deny path 8
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: dont_call
-   - action: utter_convince
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: deny path 9
-   steps:
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: deny path 10
-   steps:
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: deny path 11
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: deny path 12
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: deny path 13
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: deny path 14
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: need_info
-   - action: utter_more_info
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: busy path 1
-   steps:
-   - intent: mood_busy
-   - action: utter_sad_bye
-
- - story: busy path 2
-   steps:
-   - intent: affirm
-   - action: utter_info
-   - intent: mood_busy
-   - action: utter_sad_bye
-
- - story: busy path 3
-   steps:
-   - intent: need_info
-   - action: utter_info
-   - intent: more_info
-   - action: utter_more_info
-   - intent: mood_busy
-   - action: utter_sad_bye
-
- - story: question_answer path 1
-   steps:
-   - intent: further_questions
-   - action: utter_answer
-   - intent: affirm
-   - action: utter_goodbye
-
- - story: question_answer path 2
-   steps:
-   - intent: further_questions
-   - action: utter_answer
-   - intent: time_date
-   - action: utter_goodbye
-
- - story: question_answer deny path 1
-   steps:
-   - intent: further_questions
-   - action: utter_answer
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: question_answer deny path 2
-   steps:
-   - intent: further_questions
-   - action: utter_answer
-   - intent: deny
-   - action: utter_sad_bye
-
- - story: greet_again path 1
+ - story: greet_again deny path 1
    steps:
    - intent: greet+who
    - action: utter_greet_again
    - intent: affirm
    - action: utter_info
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: greet_again deny path 2
    steps:
@@ -441,7 +22,7 @@ stories:
    - intent: need_info
    - action: utter_info
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: greet_again path 1
    steps:
@@ -482,16 +63,268 @@ stories:
    - intent: time_date
    - action: utter_goodbye
 
- - story: greet_again path 4
+ - story: positive path 1
    steps:
    - intent: need_info
    - action: utter_info
-   - intent: greet+who
-   - action: utter_greet_again
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: positive path 2
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: positive path 3
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
    - intent: affirm
    - action: utter_callback_check
    - intent: deny
    - action: utter_goodbye
+
+ - story: positive path 4
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: deny
+   - action: utter_goodbye
+
+ - story: positive convince path 1
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: positive convince path 2
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: affirm
+   - action: utter_goodbye
+
+ - story: positive convince path 3
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: positive convince path 4
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: positive convince path 5
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: affirm
+   - action: utter_goodbye
+
+ - story: positive convince path 6
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: positive convince path 7
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: affirm
+   - action: utter_goodbye
+
+ - story: positive deny path 1
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: deny
+   - action: utter_sad_bye
+
+ - story: positive deny path 2
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: not_interested
+   - action: utter_sad_bye
+
+ - story: deny path 1
+   steps:
+   - intent: deny
+   - action: utter_sad_bye
+
+ - story: deny path 2
+   steps:
+   - intent: not_interested
+   - action: utter_sad_bye
+
+ - story: deny path 3
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: not_interested
+   - action: utter_sad_bye
+
+ - story: deny path 4
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: deny
+   - action: utter_sad_bye
+
+ - story: deny path 5
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
+   - intent: deny
+   - action: utter_sad_bye
+
+ - story: deny path 6
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: more_info
+   - action: utter_more_info
+   - intent: not_interested
+   - action: utter_sad_bye
+
+ - story: busy path 1
+   steps:
+   - intent: mood_busy
+   - action: utter_sad_bye
+
+ - story: busy path 2
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: mood_busy
+   - action: utter_sad_bye
+
+ - story: busy path 3
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: more_info
+   - action: utter_more_info
+   - intent: mood_busy
+   - action: utter_sad_bye
+
+ - story: busy path 4
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: mood_busy
+   - action: utter_sad_bye
+
+ - story: question_answer path 1
+   steps:
+   - intent: further_questions
+   - action: utter_answer
+   - intent: affirm
+   - action: utter_goodbye
+
+ - story: question_answer path 2
+   steps:
+   - intent: further_questions
+   - action: utter_answer
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: question_answer deny path 1
+   steps:
+   - intent: further_questions
+   - action: utter_answer
+   - intent: not_interested
+   - action: utter_sad_bye
+
+ - story: question_answer deny path 2
+   steps:
+   - intent: further_questions
+   - action: utter_answer
+   - intent: deny
+   - action: utter_sad_bye
 
  - story: call later path 1
    steps:
@@ -502,6 +335,33 @@ stories:
 
  - story: call later path 2
    steps:
+   - intent: call_later
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: affirm
+   - action: utter_goodbye
+
+ - story: call later path 3
+   steps:
+   - intent: call_later
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: call later path 4
+   steps:
+   - intent: call_later
+   - action: utter_callback_check
+   - intent: dont_call
+   - action: utter_convince
+   - intent: deny
+   - action: utter_sad_bye
+
+ - story: call later path 5
+   steps:
    - intent: affirm
    - action: utter_info
    - intent: call_later
@@ -509,7 +369,7 @@ stories:
    - intent: deny
    - action: utter_goodbye
 
- - story: call later path 3
+ - story: call later path 6
    steps:
    - intent: need_info
    - action: utter_info
@@ -575,7 +435,7 @@ stories:
 
  - story: busy need_info path 1
    steps:
-   - intent: busy+need_info
+   - intent: mood_busy+need_info
    - action: utter_busy_info
    - intent: affirm
    - action: utter_callback_check
@@ -584,7 +444,7 @@ stories:
 
  - story: busy need_info path 2
    steps:
-   - intent: busy+need_info
+   - intent: mood_busy+need_info
    - action: utter_busy_info
    - intent: deny
    - action: utter_sad_bye
@@ -682,3 +542,46 @@ stories:
    steps:
    - intent: contact
    - action: utter_callback_check
+
+ - story: zoom session path 1
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: regarding_zoom
+   - action: utter_callback_check
+   - intent: affirm
+   - action: utter_goodbye
+
+ - story: zoom session path 2
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: more_info
+   - action: utter_more_info
+   - intent: regarding_zoom
+   - action: utter_callback_check
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: zoom session path 3
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: mood_busy+time_date
+   - action: utter_busy_bye
+
+ - story: delivery path 1
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
+   - intent: regarding_zoom
+   - action: utter_callback_check
+   - intent: delivery_check
+   - action: utter_delivery_info
+

@@ -18,8 +18,11 @@ intents:
   - cost_check
   - contact
   - who
+  - mood_busy+time_date
+  - regarding_zoom
+  - delivery_check
   - greet+who
-  - busy+need_info
+  - mood_busy+need_info
   - trigger_rephrase
 
 entities:
@@ -67,6 +70,12 @@ responses:
 
   utter_more_info:
     - text: more_info
+
+  utter_busy_bye:
+    - text: busy_bye
+
+  utter_delivery_info:
+    - text: delivery_info
 
 session_config:
   session_expiration_time: 60
