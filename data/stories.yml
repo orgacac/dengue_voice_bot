@@ -580,8 +580,36 @@ stories:
    - action: utter_info
    - intent: need_info
    - action: utter_more_info
-   - intent: regarding_zoom
-   - action: utter_callback_check
    - intent: delivery_check
    - action: utter_delivery_info
+   - intent: regarding_zoom
+   - action: utter_callback_check
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: delivery path 2
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: delivery_check
+   - action: utter_delivery_info
+   - intent: regarding_zoom
+   - action: utter_callback_check
+   - intent: time_date
+   - action: utter_goodbye
+
+ - story: delivery path 3
+   steps:
+   - intent: affirm
+   - action: utter_info
+   - intent: need_info
+   - action: utter_more_info
+   - intent: delivery_check
+   - action: utter_delivery_info
+   - intent: affirm
+   - action: utter_callback_check
+   - intent: time_date
+   - action: utter_goodbye
+
+
 
