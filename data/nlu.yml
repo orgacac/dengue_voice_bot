@@ -194,6 +194,7 @@ nlu:
     - Okay how to go about it?
     - Okay when to meet?
     - Okay zoom session
+    - zoom ah okay?
     - Yes sure how to go about it?
     - I can only make it tomorrow.
     - Ok sure, zoom session is fine. okay sure!
@@ -213,6 +214,8 @@ nlu:
     - sorry,may be on [12 th](date) at [10 am](time)
     - can have a meet at [7 pm](time)
     - ok can at [5 pm](time)
+    - can have a call [tomorrow](day)
+    - can have a meet [tomorrow](day)
 
 - intent: delivery_check
   examples: |
@@ -350,6 +353,7 @@ nlu:
     - Will this be expensive?
     - Is this really free?
     - Free or not ?
+    - do i need to pay anything?
     - do we need to buy?
     - How can this be free?
     - what it costs?
@@ -358,7 +362,7 @@ nlu:
     - sorry free?
     - is there any terms and conditions?
 
-- intent: busy+need_info
+- intent: mood_busy+need_info
   examples: |
     - busy la.what is it?
     - okay i am busy what is it about?
@@ -366,7 +370,7 @@ nlu:
     - iam in hurry what is the call?
     - i have to rush why calling me?
     - am driving what?
-    - am in middle of something anthing important
+    - am in middle of something anything important
     - busy in work make it quick
     - not have time finish it fast
     - no no what is it regarding?
@@ -413,6 +417,8 @@ nlu:
     - busy at this moment
     - driving at this moment
     - Busy at the moment call you back later
+    - am busy bye
+    - am busy right now bye bye
 
 - intent: dont_call
   examples: |
@@ -487,6 +493,8 @@ nlu:
     - call you back
     - call me later
     - can you callback after sometime
+    - can i call later
+    - can i call you later
 
 - intent: contact
   examples: |
@@ -521,6 +529,7 @@ nlu:
     - call me after office time at around [6 pm](time)
     - after office hours
     - Sure, I would like a callback on [5th](date) at [4pm](time)
+    - on weekend
 
 - lookup: time
   examples: |

@@ -382,6 +382,8 @@ stories:
    steps:
    - intent: affirm
    - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
    - intent: cost_check
    - action: utter_cost_info
    - intent: affirm
@@ -393,9 +395,11 @@ stories:
    steps:
    - intent: affirm
    - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
    - intent: cost_check
    - action: utter_cost_info
-   - intent: affirm
+   - intent: regarding_zoom
    - action: utter_callback_check
    - intent: deny
    - action: utter_goodbye
@@ -404,6 +408,8 @@ stories:
    steps:
    - intent: need_info
    - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
    - intent: cost_check
    - action: utter_cost_info
    - intent: affirm
@@ -415,9 +421,11 @@ stories:
    steps:
    - intent: need_info
    - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
    - intent: cost_check
    - action: utter_cost_info
-   - intent: affirm
+   - intent: regarding_zoom
    - action: utter_callback_check
    - intent: deny
    - action: utter_goodbye
@@ -426,6 +434,8 @@ stories:
    steps:
    - intent: affirm
    - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
    - intent: cost_check
    - action: utter_cost_info
    - intent: affirm
@@ -593,6 +603,8 @@ stories:
    - action: utter_info
    - intent: delivery_check
    - action: utter_delivery_info
+   - intent: affirm
+   - action: utter_more_info
    - intent: regarding_zoom
    - action: utter_callback_check
    - intent: time_date

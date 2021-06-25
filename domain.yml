@@ -44,9 +44,6 @@ responses:
   utter_info:
     - text: info
 
-  utter_delivery_check:
-    - text: delivery_check
-
   utter_callback_check:
     - text: callback_check
 
