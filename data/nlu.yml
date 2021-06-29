@@ -142,6 +142,8 @@ nlu:
     - ok sure
     - ok can
     - Okay can.
+    - okay sure no problem
+    - ok no problem
 
 - intent: greet+who
   examples: |
@@ -358,6 +360,7 @@ nlu:
     - How can this be free?
     - what it costs?
     - free ah?
+    - yes is it free?
     - is this free of charge?
     - sorry free?
     - is there any terms and conditions?
