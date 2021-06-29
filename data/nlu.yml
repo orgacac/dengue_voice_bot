@@ -144,6 +144,9 @@ nlu:
     - Okay can.
     - okay sure no problem
     - ok no problem
+    - all right well
+    - all right okay
+  
 
 - intent: greet+who
   examples: |
