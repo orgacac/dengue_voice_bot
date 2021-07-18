@@ -142,11 +142,6 @@ nlu:
     - ok sure
     - ok can
     - Okay can.
-    - okay sure no problem
-    - ok no problem
-    - all right well
-    - all right okay
-  
 
 - intent: greet+who
   examples: |
@@ -221,6 +216,10 @@ nlu:
     - ok can at [5 pm](time)
     - can have a call [tomorrow](day)
     - can have a meet [tomorrow](day)
+    - am busy call on [tuesday](day)
+    - can have zoom on [thursday](day)
+    - sorry may be [tomorrow](day)
+    - sorry may be [6 th](date) of this month
 
 - intent: delivery_check
   examples: |
@@ -363,7 +362,6 @@ nlu:
     - How can this be free?
     - what it costs?
     - free ah?
-    - yes is it free?
     - is this free of charge?
     - sorry free?
     - is there any terms and conditions?
