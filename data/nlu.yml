@@ -220,6 +220,8 @@ nlu:
     - can have zoom on [thursday](day)
     - sorry may be [tomorrow](day)
     - sorry may be [6 th](date) of this month
+    - busy [tomorrow](day)
+    - sorry busy [tomorrow](day) [afternoon](day)
 
 - intent: delivery_check
   examples: |
@@ -306,6 +308,7 @@ nlu:
     - Zoom ah? No need thankyou
     - Erm.. I think it’s okay.
     - I think it’s okay, no thank you
+    - quit
 
 - intent: not_interested
   examples: |

@@ -298,34 +298,6 @@ stories:
    - intent: mood_busy
    - action: utter_sad_bye
 
- - story: question_answer path 1
-   steps:
-   - intent: further_questions
-   - action: utter_answer
-   - intent: affirm
-   - action: utter_goodbye
-
- - story: question_answer path 2
-   steps:
-   - intent: further_questions
-   - action: utter_answer
-   - intent: time_date
-   - action: utter_goodbye
-
- - story: question_answer deny path 1
-   steps:
-   - intent: further_questions
-   - action: utter_answer
-   - intent: not_interested
-   - action: utter_sad_bye
-
- - story: question_answer deny path 2
-   steps:
-   - intent: further_questions
-   - action: utter_answer
-   - intent: deny
-   - action: utter_sad_bye
-
  - story: call later path 1
    steps:
    - intent: call_later
@@ -587,6 +559,15 @@ stories:
    steps:
    - intent: contact
    - action: utter_callback_check
+   - intent: affirm
+   - action: utter_goodbye
+
+ - story: contact agent deny path
+   steps:
+   - intent: contact
+   - action: utter_callback_check
+   - intent: deny
+   - action: utter_sad_bye
 
  - story: zoom session path 1
    steps:
@@ -616,6 +597,17 @@ stories:
    - action: utter_info
    - intent: affirm
    - action: utter_more_info
+   - intent: mood_busy+time_date
+   - action: utter_busy_bye
+
+ - story: zoom session path 4
+   steps:
+   - intent: need_info
+   - action: utter_info
+   - intent: affirm
+   - action: utter_more_info
+   - intent: affirm
+   - action: utter_callback_check
    - intent: mood_busy+time_date
    - action: utter_busy_bye
 
