@@ -71,8 +71,8 @@ responses:
   utter_busy_bye:
     - text: busy_bye
 
-  utter_delivery_info:
-    - text: delivery_info
+  utter_happy_bye:
+    - text: happy_bye
 
 session_config:
   session_expiration_time: 60

@@ -35,7 +35,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: greet_again path 2
    steps:
@@ -48,7 +48,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: greet_again path 3
    steps:
@@ -61,7 +61,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: positive path 1
    steps:
@@ -72,7 +72,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: positive path 2
    steps:
@@ -83,7 +83,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: positive path 3
    steps:
@@ -94,7 +94,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: positive path 4
    steps:
@@ -105,7 +105,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: positive convince path 1
    steps:
@@ -118,7 +118,7 @@ stories:
    - intent: dont_call
    - action: utter_convince
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: positive convince path 2
    steps:
@@ -144,7 +144,7 @@ stories:
    - intent: dont_call
    - action: utter_convince
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: positive convince path 4
    steps:
@@ -157,7 +157,7 @@ stories:
    - intent: dont_call
    - action: utter_convince
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: positive convince path 5
    steps:
@@ -183,7 +183,7 @@ stories:
    - intent: dont_call
    - action: utter_convince
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: positive convince path 7
    steps:
@@ -303,7 +303,7 @@ stories:
    - intent: call_later
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: call later path 2
    steps:
@@ -321,7 +321,7 @@ stories:
    - intent: dont_call
    - action: utter_convince
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: call later path 4
    steps:
@@ -339,7 +339,7 @@ stories:
    - intent: call_later
    - action: utter_callback_check
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: call later path 6
    steps:
@@ -348,7 +348,7 @@ stories:
    - intent: call_later
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: cost path 1
    steps:
@@ -361,7 +361,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: cost path 2
    steps:
@@ -374,7 +374,7 @@ stories:
    - intent: regarding_zoom
    - action: utter_callback_check
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: cost path 3
    steps:
@@ -387,7 +387,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: cost path 4
    steps:
@@ -400,7 +400,7 @@ stories:
    - intent: regarding_zoom
    - action: utter_callback_check
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: cost path 5
    steps:
@@ -413,7 +413,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: cost path 6
    steps:
@@ -457,7 +457,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: busy need_info path 2
    steps:
@@ -475,7 +475,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: more_info path 2
    steps:
@@ -486,7 +486,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: more_info path 3
    steps:
@@ -497,7 +497,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: more_info path 4
    steps:
@@ -508,7 +508,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: deny
-   - action: utter_goodbye
+   - action: utter_sad_bye
 
  - story: more_info deny path 1
    steps:
@@ -589,7 +589,7 @@ stories:
    - intent: regarding_zoom
    - action: utter_callback_check
    - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: zoom session path 3
    steps:
@@ -598,7 +598,7 @@ stories:
    - intent: affirm
    - action: utter_more_info
    - intent: mood_busy+time_date
-   - action: utter_busy_bye
+   - action: utter_happy_bye
 
  - story: zoom session path 4
    steps:
@@ -609,7 +609,7 @@ stories:
    - intent: affirm
    - action: utter_callback_check
    - intent: mood_busy+time_date
-   - action: utter_busy_bye
+   - action: utter_happy_bye
 
  - story: delivery path 1
    steps:
@@ -618,24 +618,14 @@ stories:
    - intent: need_info
    - action: utter_more_info
    - intent: delivery_check
-   - action: utter_delivery_info
-   - intent: regarding_zoom
-   - action: utter_callback_check
-   - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: delivery path 2
    steps:
    - intent: affirm
    - action: utter_info
    - intent: delivery_check
-   - action: utter_delivery_info
-   - intent: affirm
-   - action: utter_more_info
-   - intent: regarding_zoom
-   - action: utter_callback_check
-   - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
  - story: delivery path 3
    steps:
@@ -644,11 +634,7 @@ stories:
    - intent: need_info
    - action: utter_more_info
    - intent: delivery_check
-   - action: utter_delivery_info
-   - intent: affirm
-   - action: utter_callback_check
-   - intent: time_date
-   - action: utter_goodbye
+   - action: utter_happy_bye
 
 
 

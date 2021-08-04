@@ -37,6 +37,8 @@ nlu:
     - hola
     - hello who are you?
     - hii what is it about?
+    - who's on line?
+    - hello who is that calling?
 
 - intent: goodbye
   examples: |
@@ -142,6 +144,11 @@ nlu:
     - ok sure
     - ok can
     - Okay can.
+    - absolutely
+    - okay schedule
+    - all right
+    - no problem
+    - welcome
 
 - intent: greet+who
   examples: |
@@ -187,6 +194,14 @@ nlu:
     - where are you calling on behalf?
     - so sorry what is it about?
     - okay regarding what?
+    - regarding
+    - why why
+    - are you calling for what?
+    - was it regarding?
+    - hi may i know why janice is calling?
+    - calling from
+    - from
+    - no its regarding insurance or any medicine or something
 
 - intent: regarding_zoom
   examples: |
@@ -222,6 +237,7 @@ nlu:
     - sorry may be [6 th](date) of this month
     - busy [tomorrow](day)
     - sorry busy [tomorrow](day) [afternoon](day)
+    - can you call me tomorrow am not feeling right now
 
 - intent: delivery_check
   examples: |
@@ -248,6 +264,7 @@ nlu:
     - Yes, but I am not keen now
     - no it's okay
     - what is it again?
+
 
 - intent: deny
   examples: |
@@ -309,6 +326,10 @@ nlu:
     - Erm.. I think it’s okay.
     - I think it’s okay, no thank you
     - quit
+    - i dont know this but i have one
+    - no actually i got my agent who contact me also
+    - no worry i see my agent contact me regarding this
+    - no already arranged for this
 
 - intent: not_interested
   examples: |
@@ -352,6 +373,7 @@ nlu:
     - The high card number you have dialed, in unavailable. Please try again later.
     - xxxx9890 is unavailable at the moment, please leave a message after the tone.
     - You have reached Voicemail number xxxxx
+    - at the tone
 
 - intent: cost_check
   examples: |
@@ -426,6 +448,8 @@ nlu:
     - Busy at the moment call you back later
     - am busy bye
     - am busy right now bye bye
+    - hello in the auto
+    - no its okay am not free
 
 - intent: dont_call
   examples: |
